@@ -1,1 +1,1 @@
-This is a .bashrc config files 
+These are .bashrc config files 
