@@ -23,3 +23,9 @@ alias gbm='git branch -M main'   # rename/create branch as main
 alias grao='git remote add origin'  # add remote origin
 alias gp='git push origin main'     # push to origin/main
 alias gpu='git push -u origin main' # push & set upstream (first push)
+
+# for c++ file to run
+run() {
+  filename=$1
+  g++ "$filename.cpp" && ./a.out
+}
