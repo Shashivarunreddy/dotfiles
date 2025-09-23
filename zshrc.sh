@@ -13,7 +13,7 @@ alias .3='cd ../../../'
 alias .4='cd ../../../../'
 alias .5='cd ../../../../../'
 
-
+alias update='sudo apt update && sudo apt upgrade -y'
 # --- Minimal Git aliases ---
 alias ga='git add .'             # stage everything
 alias gc='git commit -m'         # commit with a message
